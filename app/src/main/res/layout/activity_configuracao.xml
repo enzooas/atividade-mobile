@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_txt">
+        </TextView>
+        <EditText
+            android:id="@+id/edit_text_nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo_txt"
+            android:layout_marginTop="30dp"/>
+        <RadioGroup
+            android:id="@+id/radio_group_sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_masculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masculino_txt"/>
+            <RadioButton
+                android:id="@+id/radio_feminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feminino_txt"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dieta_txt"
+            android:layout_marginTop="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cbHipolipidica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hipolipidia_txt" />
+
+            <CheckBox
+                android:id="@+id/cbHipoglicidica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hipoglicidica_txt" />
+
+            <CheckBox
+                android:id="@+id/cbSemGluten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/semgluten_txt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/button_confirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_txt">
+        </Button>
+        <Button
+            android:id="@+id/button_sair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sair_txt">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
