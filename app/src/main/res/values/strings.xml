@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">AtividadeAvaliativa</string>
-    <string name="configurar_txt">Configurar</string>
-    <string name="sair_txt">Sair</string>
-    <string name="confirmar_txt">Confirmar</string>
-    <string name="cancelar_txt">Cancelar</string>
-    <string name="nome_txt">Nome:</string>
-    <string name="sexo_txt">Sexo</string>
-    <string name="masculino_txt">Masculino</string>
-    <string name="feminino_txt">Feminino</string>
-    <string name="dieta_txt">Dieta</string>
-    <string name="hipolipidia_txt">Hipolipídia</string>
-    <string name="hipoglicidica_txt">Hipoglicídica</string>
-    <string name="semgluten_txt">Sem Glúten</string>
+    <string name="app_name">Evaluation Activity</string>
+    <string name="configurar_txt">Configure</string>
+    <string name="sair_txt">Exit</string>
+    <string name="confirmar_txt">Confirm</string>
+    <string name="cancelar_txt">Cancel</string>
+    <string name="nome_txt">Name:</string>
+    <string name="sexo_txt">Gender</string>
+    <string name="masculino_txt">Male</string>
+    <string name="feminino_txt">Female</string>
+    <string name="dieta_txt">Diet</string>
+    <string name="hipolipidica_txt">Low-fat</string>
+    <string name="hipoglicidica_txt">Low-carb</string>
+    <string name="semgluten_txt">Gluten-free</string>
 </resources>
